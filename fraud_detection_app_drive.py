@@ -42,7 +42,7 @@ st.write("Missing Values:", dataframe.isnull().sum())
 # Original notebook code (unchanged)
 st.markdown("## 🔧 Additional Notebook Code")
 with st.expander("Show Raw Code"):
-    st.code("""import pandas as pd
+    st.code(import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
