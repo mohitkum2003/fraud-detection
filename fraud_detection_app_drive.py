@@ -10,7 +10,7 @@ st.set_page_config(page_title="Online Fraud Detection", layout="wide")
 st.title("💳 Online Fraud Detection Dashboard")
 
 # Load CSV from Google Drive
-file_id = "YOUR_FILE_ID_HERE"  # Replace with actual Google Drive file ID
+file_id = "1HVB5v-IyppmTznakjE7v3kfsbXG84-ug"  # Replace with actual Google Drive file ID
 dwn_url = f"https://drive.google.com/uc?id={file_id}"
 
 @st.cache_data
